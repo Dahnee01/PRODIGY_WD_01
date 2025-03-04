@@ -1,5 +1,5 @@
 import React from 'react';
 
 export default function About() {
-	return <div>AboutPage</div>;
+	return <div className='text-center '>About Page</div>;
 }
