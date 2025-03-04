@@ -11,7 +11,7 @@ function NavBar() {
 	};
 
 	return (
-		<nav className='sticky top-0 left-0 right-0 flex-wrap h-43 bg-blue-400  flex justify-between items-center px-6 shadow-lg z-50'>
+		<nav className='fixed top-0 left-0 right-0 flex-wrap h-43 bg-blue-400  flex justify-between items-center px-6 shadow-lg z-50'>
 			<div className='text-2xl font-bold'>Dahnee Company</div>
 
 			<button className='md:hidden' onClick={toggleNavBar}>
